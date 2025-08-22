@@ -1,6 +1,7 @@
-import React from 'react';
-import { Header } from '../components/Header';
+import React from "react";
+import { Header } from "../components/Header";
 
+//
 export const About: React.FC = () => {
   return (
     <div className="about-page">
@@ -14,3 +15,4 @@ export const About: React.FC = () => {
     </div>
   );
 };
+
