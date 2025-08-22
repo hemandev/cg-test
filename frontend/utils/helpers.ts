@@ -1,3 +1,4 @@
+//
 export const formatDate = (date: Date): string => {
   return date.toLocaleDateString();
 };
@@ -8,7 +9,7 @@ export const capitalizeFirst = (str: string): string => {
 
 export const debounce = <T extends (...args: any[]) => any>(
   func: T,
-  delay: number
+  delay: number,
 ): ((...args: Parameters<T>) => void) => {
   let timeoutId: NodeJS.Timeout;
   return (...args: Parameters<T>) => {
@@ -16,3 +17,4 @@ export const debounce = <T extends (...args: any[]) => any>(
     timeoutId = setTimeout(() => func(...args), delay);
   };
 };
+
