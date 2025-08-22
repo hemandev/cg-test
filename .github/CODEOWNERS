@@ -1,0 +1,28 @@
+# Global owners
+* @global-team
+
+# Frontend
+/frontend/ @frontend-team
+/frontend/components/ @ui-team
+/frontend/ui/ @ui-team
+
+# Backend
+/backend/ @backend-team
+/backend/api/ @api-team
+
+# Shared code
+/shared/ @shared-team
+
+# Documentation
+/docs/ @docs-team
+*.md @docs-team
+
+# Configuration
+/config/ @devops-team
+*.json @devops-team
+*.yml @devops-team
+*.yaml @devops-team
+
+# Specific files
+package.json @backend-team @frontend-team
+tsconfig.json @backend-team @frontend-team

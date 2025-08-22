@@ -1,0 +1,30 @@
+{
+  "development": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "cg_test_dev",
+    "username": "postgres",
+    "password": "password",
+    "dialect": "postgres",
+    "logging": true
+  },
+  "test": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "cg_test_test",
+    "username": "postgres",
+    "password": "password",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "host": "${DB_HOST}",
+    "port": "${DB_PORT}",
+    "database": "${DB_NAME}",
+    "username": "${DB_USER}",
+    "password": "${DB_PASSWORD}",
+    "dialect": "postgres",
+    "logging": false,
+    "ssl": true
+  }
+}
