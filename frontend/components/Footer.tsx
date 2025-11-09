@@ -23,3 +23,4 @@ export const Footer: React.FC<FooterProps> = ({ copyright, links = [] }) => {
     </footer>
   );
 };
+// Test change - 20251109-120930
