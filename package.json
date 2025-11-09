@@ -12,6 +12,7 @@
     "build:backend": "tsc",
     "test": "jest",
     "test:watch": "jest --watch",
+    "test:changes": "./scripts/add-random-changes.sh",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write ."
   },
